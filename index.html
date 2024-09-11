@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Loans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Company Logo" id="logo">
+    </header>
+
+    <div class="container">
+        <h1>Gubis85 Solutions Employee Loans</h1>
+        <ul id="employee-list"></ul>
+        <div id="loan-details" class="hidden">
+            <h2 id="employee-name"></h2>
+            <table id="loan-table">
+                <thead>
+                    <tr>
+                        <th>Loan Amount</th>
+                        <th>Remaining Installments</th>
+                        <th>Installment Amount</th>
+                        <th>Amount Paid</th>
+                        <th>Remaining Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="loan-details-body"></tbody>
+            </table>
+            <button onclick="generatePDF()">Generate PDF Statement</button>
+            <button onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © 2024. All rights reserved. Developed by ZWANZIG SOLUTIONS
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+</body>
+</html>
