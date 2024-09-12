@@ -53,7 +53,12 @@ const employees = [
             { amount: 1000, remainingInstallments: 1, installmentAmount: 500, paid: 500, balance: 500 }
         ]
     },
-   
+    {
+        name: "Nkosinathi Mdoka",
+        loans: [
+            { amount: 10000, remainingInstallments: 4, installmentAmount: 2500, paid: 0, balance: 10000 }
+        ]
+    },
     // Add more employees as needed
 ];
 
