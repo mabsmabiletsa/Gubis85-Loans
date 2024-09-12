@@ -14,7 +14,7 @@ const employees = [
     {
         name: "Ishmael Ncgobo",
         loans: [
-            { amount: 20000, remainingInstallments: 3, installmentAmount: 3333.33, paid: 9999.99, balance: 10000.01}
+            { amount: 25100, remainingInstallments: 3, installmentAmount: 3333.33, paid: 9999.99, balance: 10000.01}
         ]
     },
     {
@@ -59,12 +59,7 @@ const employees = [
             { amount: 10000, remainingInstallments: 4, installmentAmount: 2500, paid: 0, balance: 10000 }
         ]
     },
-    {
-        name: "Lindo Masanabo",
-        loans: [
-            { amount: 6000, remainingInstallments: 3, installmentAmount: 2000, paid: 0, balance: 6000 }
-        ]
-    },
+    
     // Add more employees as needed
 ];
 
