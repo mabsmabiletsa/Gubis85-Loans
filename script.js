@@ -61,6 +61,7 @@ const employees = [
     },
     
     // Add more employees as needed
+    //NO DEDUCTIONS FOR LEON
 ];
 
 let currentEmployee = '';
