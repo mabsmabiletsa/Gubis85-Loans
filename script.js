@@ -54,6 +54,12 @@ const employees = [
             { amount: 10000, remainingInstallments: 4, installmentAmount: 2500, paid: 0, balance: 10000 }
         ]
     },
+    {
+        name: "Andrew Kgwadi",
+        loans: [
+            { amount: 50000, remainingInstallments: 10, installmentAmount: 5000, paid: 0, balance: 5000 }
+        ]
+    },
     
     // Add more employees as needed
     //NO DEDUCTIONS FOR LEON
