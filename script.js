@@ -1,10 +1,5 @@
 const employees = [
-    {
-        name: "Lawrence Mahlangu",
-        loans: [
-            { amount: 12850, remainingInstallments: 2, installmentAmount: 3350, paid: 10441, balance: 2409 }
-        ]
-    },
+    
     {
         name: "Hamilton Nkosi",
         loans: [
