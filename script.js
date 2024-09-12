@@ -19,7 +19,7 @@ const employees = [
         ]
     },
     {
-        name: "Sipho Gumede",
+        name: "Sipho Kumwenda",
         loans: [
             { amount: 20000, remainingInstallments: 1, installmentAmount: 5000, paid: 15000, balance: 5000 }
         ]
