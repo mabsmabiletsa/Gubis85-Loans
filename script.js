@@ -14,7 +14,7 @@ const employees = [
     {
         name: "Ishmael Ncgobo",
         loans: [
-            { amount: 25100, remainingInstallments: 3, installmentAmount: 3333.33, paid: 9999.99, balance: 10000.01}
+            { amount: 25100, remainingInstallments: 3, installmentAmount: 3333.33, paid: 9999.99, balance: 15100.01}
         ]
     },
     {
@@ -64,20 +64,28 @@ const employees = [
     //NO DEDUCTIONS FOR LEON
 ];
 
-let currentEmployee = '';
-
 function displayEmployees() {
     const employeeList = document.getElementById('employee-list');
+    const totalLoanAmountElement = document.getElementById('total-loan-amount');
     employeeList.innerHTML = '';
 
+    let totalRemainingBalance = 0;
+
+    // Loop through employees to display individual loans and calculate the total remaining balance
     employees.forEach((employee, index) => {
-        const total = employee.loans.reduce((sum, loan) => sum + loan.amount, 0);
+        const totalRemaining = employee.loans.reduce((sum, loan) => sum + loan.balance, 0);
+        totalRemainingBalance += totalRemaining;  // Add employee remaining balance to total remaining balance
+
         const li = document.createElement('li');
-        li.textContent = `${employee.name} - Loan: R${total}`;
+        li.textContent = `${employee.name} - Remaining Balance: R${totalRemaining}`;
         li.addEventListener('click', () => showDetails(index));
         employeeList.appendChild(li);
     });
+
+    // Display the total remaining balance on the main page
+    totalLoanAmountElement.textContent = `R${totalRemainingBalance.toFixed(2)}`;
 }
+
 
 function showDetails(index) {
     const employee = employees[index];
