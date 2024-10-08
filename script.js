@@ -3,61 +3,43 @@ const employees = [
     {
         name: "Hamilton Nkosi",
         loans: [
-            { amount: 44850, remainingInstallments: 5, installmentAmount: 5606, paid: 16818, balance: 28032 }
+            { amount: 44850, remainingInstallments: 4, installmentAmount: 5606, paid: 22424, balance: 22426 }
         ]
     },
     {
         name: "Ishmael Ncgobo",
         loans: [
-            { amount: 25100, remainingInstallments: 3, installmentAmount: 3333.33, paid: 9999.99, balance: 15100.01}
+            { amount: 25100, remainingInstallments: 2, installmentAmount: 3333.33, paid: 13333.32, balance: 11766.68}
         ]
     },
     {
         name: "Luzuko Komani",
         loans: [
-            { amount: 5000, remainingInstallments: 2, installmentAmount: 1000, paid: 3000, balance: 2000 }
-        ]
-    },
-    {
-        name: "Sipho Kumwenda",
-        loans: [
-            { amount: 20000, remainingInstallments: 1, installmentAmount: 5000, paid: 15000, balance: 5000 }
+            { amount: 5000, remainingInstallments: 1, installmentAmount: 1000, paid: 4000, balance: 1000 }
         ]
     },
     {
         name: "Thokozani Mahlangu",
         loans: [
-            { amount: 63000, remainingInstallments: 12, installmentAmount: 5000, paid: 5000, balance: 58000 }
-        ]
-    },
-    {
-        name: "Tshwarelo Ndala",
-        loans: [
-            { amount: 12850, remainingInstallments: 1, installmentAmount: 3350, paid: 10050, balance: 2800 }
+            { amount: 63000, remainingInstallments: 11, installmentAmount: 5000, paid: 10000, balance: 53000 }
         ]
     },
     {
         name: "William Moshupye",
         loans: [
-            { amount: 50000, remainingInstallments: 2, installmentAmount: 10000, paid: 31000, balance: 19000 }
-        ]
-    },
-    {
-        name: "Nomvula Nkosi",
-        loans: [
-            { amount: 1000, remainingInstallments: 1, installmentAmount: 500, paid: 500, balance: 500 }
+            { amount: 50000, remainingInstallments: 1, installmentAmount: 10000, paid: 41000, balance: 9000 }
         ]
     },
     {
         name: "Nkosinathi Mdoka",
         loans: [
-            { amount: 10000, remainingInstallments: 4, installmentAmount: 2500, paid: 0, balance: 10000 }
+            { amount: 10000, remainingInstallments: 3, installmentAmount: 2500, paid: 2500, balance: 7500 }
         ]
     },
     {
         name: "Andrew Kgwadi",
         loans: [
-            { amount: 50000, remainingInstallments: 10, installmentAmount: 5000, paid: 0, balance: 50000 }
+            { amount: 50000, remainingInstallments: 9, installmentAmount: 5000, paid: 5000, balance: 45000 }
         ]
     },
     
